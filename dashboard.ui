@@ -1,0 +1,3399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1805</width>
+    <height>869</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1801</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(222, 223, 220);
+border-top-right-radius:60;
+border-top-left-radius:60;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>10</number>
+    </property>
+    <property name="midLineWidth">
+     <number>5</number>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1801</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(41, 42, 55);
+border-top-right-radius:60;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_11">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>10</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/newPrefix/icon/icons8-smart-home-64.png);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Black</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:#FFF;
+</string>
+      </property>
+      <property name="text">
+       <string>SmarT Tech IOT Dashboard</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_14">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>140</y>
+        <width>120</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>300</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(41, 42, 55);
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/newPrefix/icon/day/113.png);
+border:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+color:#FFF;
+</string>
+      </property>
+      <property name="text">
+       <string>Good Morning,</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="userlabel">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>110</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+color:#FFF;
+</string>
+      </property>
+      <property name="text">
+       <string>Selcuk !</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="status_label1">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+color:#FFF;
+background-color:none;</string>
+      </property>
+      <property name="text">
+       <string>Bedroom TV is ON.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="see_more">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>240</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:none;
+text-align:left;
+font: 75 9pt &quot;Segoe UI Historic&quot;;
+color: rgb(0, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>see more &gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="status_label2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>190</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+color:#FFF;
+background-color:none;</string>
+      </property>
+      <property name="text">
+       <string>Speaker is playing.</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_4">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>130</y>
+       <width>420</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>14</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>Air Conditioner</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/newPrefix/icon/icons8-fan-64.png);
+background-color:none;
+border:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ariconditioner_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>271</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>72</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+      </property>
+      <property name="text">
+       <string>22.5°</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="airconditione_slider">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>51</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 2px; right: 2px;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: green;
+    margin: 0 -4px; /* expand outside the groove */
+}
+
+QSlider::add-page:vertical {
+   
+	
+	background-color: qlineargradient(spread:pad, x1:0.512, y1:1, x2:0.492478, y2:0, stop:0.835821 rgba(4, 131, 237, 240), stop:1 rgba(255, 255, 255, 255));
+}
+
+QSlider::sub-page:vertical {
+    
+	background-color: rgb(222, 223, 220);
+
+}</string>
+      </property>
+      <property name="value">
+       <number>30</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="airdevice">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+      </property>
+      <property name="text">
+       <string>2 devices active</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_5">
+     <property name="geometry">
+      <rect>
+       <x>899</x>
+       <y>130</y>
+       <width>411</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/newPrefix/icon/icons8-reflector-bulb-80.png);
+border:none;
+background-color:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lightintensity_label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>271</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>72</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 170, 0);
+border :none;
+background-color:none;
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+      </property>
+      <property name="text">
+       <string>54 %</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="lightintensity_slider_2">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>51</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 2px; right: 2px;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: green;
+    margin: 0 -4px; /* expand outside the groove */
+}
+
+QSlider::add-page:vertical {
+   
+	
+	background-color: qlineargradient(spread:pad, x1:0.527, y1:1, x2:0.532338, y2:0, stop:0.751244 rgba(255, 170, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QSlider::sub-page:vertical {
+
+	background-color: rgb(222, 223, 220);
+
+}</string>
+      </property>
+      <property name="value">
+       <number>30</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="airdevice_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>240</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+      </property>
+      <property name="text">
+       <string>4 lights ON right now</string>
+      </property>
+     </widget>
+     <zorder>lightintensity_label_2</zorder>
+     <zorder>lightintensity_slider_2</zorder>
+     <zorder>frame_15</zorder>
+     <zorder>airdevice_2</zorder>
+    </widget>
+    <widget class="QFrame" name="frame_6">
+     <property name="geometry">
+      <rect>
+       <x>1350</x>
+       <y>130</y>
+       <width>420</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/newPrefix/icon/icons8-home-64.png);
+border:none;
+background-color:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_17">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>111</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:none;
+
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>91</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-lock-96.png);
+border:none;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="airdevice_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>71</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+       </property>
+       <property name="text">
+        <string>Bedroom Windows</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_18">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>140</y>
+        <width>111</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:none;
+
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>91</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-lock-96.png);
+border:none;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="airdevice_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>71</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+       </property>
+       <property name="text">
+        <string>Front Door</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_19">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>140</y>
+        <width>111</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color:none;
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>91</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-lock-96.png);
+border:none;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="airdevice_5">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>90</y>
+         <width>71</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+       </property>
+       <property name="text">
+        <string>Door</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_7">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>490</y>
+       <width>300</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>251</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>24</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 24pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 170, 127);
+</string>
+      </property>
+      <property name="text">
+       <string>25 JAN 2022</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>180</y>
+        <width>211</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>54</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+border:none;
+font-weight:1200;
+font: 75 54pt &quot;Segoe UI Historic&quot;;
+color: rgb(0, 170, 127);</string>
+      </property>
+      <property name="text">
+       <string>00:52</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>90</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>14</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 170, 127);</string>
+      </property>
+      <property name="text">
+       <string>MONDAY</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_8">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>490</y>
+       <width>611</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>121</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/newPrefix/icon/icons8-temperature-128.png);
+background-color:none;
+border:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ariconditioner_label_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>180</y>
+        <width>271</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>72</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+      </property>
+      <property name="text">
+       <string>22</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>14</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>Global Temperature</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="circularProgress">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>10</y>
+        <width>291</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+border:none;
+	border-radius: 140px;
+	background-color: qconicalgradient(cx:0.5, cy:0.5, angle:228.3, stop:0.940299 rgba(255, 255, 255, 255), stop:0.970149 rgba(0, 255, 25, 255));
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="circularbg">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>291</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+
+
+
+	background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QDial" name="dial">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>291</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="maximum">
+         <number>60</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="pageStep">
+         <number>5</number>
+        </property>
+        <property name="value">
+         <number>5</number>
+        </property>
+        <property name="sliderPosition">
+         <number>5</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+        <property name="invertedControls">
+         <bool>true</bool>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="notchTarget">
+         <double>0.050000000000000</double>
+        </property>
+        <property name="notchesVisible">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="ariconditioner_label_3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>180</y>
+        <width>271</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>72</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+      </property>
+      <property name="text">
+       <string>°</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_9">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>490</y>
+       <width>311</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_10">
+     <property name="geometry">
+      <rect>
+       <x>1450</x>
+       <y>490</y>
+       <width>311</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_21">
+      <property name="geometry">
+       <rect>
+        <x>-100</x>
+        <y>-20</y>
+        <width>531</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_22">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-eye-64.png);
+border:none;
+background-color:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>220</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>14</pointsize>
+       <weight>99</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>Light Intensity</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>1380</x>
+       <y>220</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>14</pointsize>
+       <weight>99</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>Doors and Windows</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_23">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1801</width>
+       <height>871</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 223, 220);
+border-top-right-radius:60;
+border-top-left-radius:60;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>10</number>
+     </property>
+     <property name="midLineWidth">
+      <number>5</number>
+     </property>
+     <widget class="QFrame" name="frame_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1801</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(41, 42, 55);
+border-top-right-radius:60;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_25">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-smart-home-64.png);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:#FFF;
+</string>
+       </property>
+       <property name="text">
+        <string>SmarT Tech IOT Dashboard</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_26">
+       <property name="geometry">
+        <rect>
+         <x>910</x>
+         <y>140</y>
+         <width>120</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_27">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>130</y>
+        <width>300</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(41, 42, 55);
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_28">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/day/113.png);
+border:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+color:#FFF;
+</string>
+       </property>
+       <property name="text">
+        <string>Good Morning,</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userlabel_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>110</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+color:#FFF;
+</string>
+       </property>
+       <property name="text">
+        <string>Selcuk !</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="status_label1_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>160</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+color:#FFF;
+background-color:none;</string>
+       </property>
+       <property name="text">
+        <string>Bedroom TV is ON.</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="see_more_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>240</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+text-align:left;
+font: 75 9pt &quot;Segoe UI Historic&quot;;
+color: rgb(0, 85, 255);</string>
+       </property>
+       <property name="text">
+        <string>see more &gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="status_label2_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>190</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+color:#FFF;
+background-color:none;</string>
+       </property>
+       <property name="text">
+        <string>Speaker is playing.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_29">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>130</y>
+        <width>420</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>14</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+       </property>
+       <property name="text">
+        <string>Air Conditioner</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_30">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-fan-64.png);
+background-color:none;
+border:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_4">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>130</y>
+         <width>171</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>72</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>22</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QSlider" name="airconditione_slider_2">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>50</y>
+         <width>51</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 2px; right: 2px;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: green;
+    margin: 0 -4px; /* expand outside the groove */
+}
+
+QSlider::add-page:vertical {
+   
+	
+	background-color: qlineargradient(spread:pad, x1:0.512, y1:1, x2:0.492478, y2:0, stop:0.835821 rgba(4, 131, 237, 240), stop:1 rgba(255, 255, 255, 255));
+}
+
+QSlider::sub-page:vertical {
+    
+	background-color: rgb(222, 223, 220);
+
+}</string>
+       </property>
+       <property name="value">
+        <number>30</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="airdevice_6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>251</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+       </property>
+       <property name="text">
+        <string>2 devices active</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_7">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>140</y>
+         <width>41</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>72</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>°</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_8">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>160</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>22</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 22pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>5°</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_9">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>110</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>22</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 22pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>15°</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_10">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>250</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>22</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 22pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>-15°</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_11">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>30</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>22</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 22pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>30°</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_31">
+      <property name="geometry">
+       <rect>
+        <x>899</x>
+        <y>130</y>
+        <width>411</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_32">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>81</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-reflector-bulb-80.png);
+border:none;
+background-color:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lightintensity_label_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>271</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>72</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 170, 0);
+border :none;
+background-color:none;
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>54 %</string>
+       </property>
+      </widget>
+      <widget class="QSlider" name="lightintensity_slider_3">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>50</y>
+         <width>51</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 2px; right: 2px;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: green;
+    margin: 0 -4px; /* expand outside the groove */
+}
+
+QSlider::add-page:vertical {
+   
+	
+	background-color: qlineargradient(spread:pad, x1:0.527, y1:1, x2:0.532338, y2:0, stop:0.751244 rgba(255, 170, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QSlider::sub-page:vertical {
+
+	background-color: rgb(222, 223, 220);
+
+}</string>
+       </property>
+       <property name="value">
+        <number>30</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="airdevice_7">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>240</y>
+         <width>251</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+       </property>
+       <property name="text">
+        <string>4 lights ON right now</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_33">
+      <property name="geometry">
+       <rect>
+        <x>1350</x>
+        <y>130</y>
+        <width>420</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_34">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-home-64.png);
+border:none;
+background-color:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_35">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>111</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+background-color:none;
+
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>91</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-lock-96.png);
+border:none;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="airdevice_8">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>100</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+        </property>
+        <property name="text">
+         <string>Bedroom Windows</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>111</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:none;
+
+}
+QPushButton:hover{
+
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(0, 0, 0, 0));
+
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_36">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>140</y>
+         <width>111</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+background-color:none;
+
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>91</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-lock-96.png);
+border:none;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="airdevice_9">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>100</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+        </property>
+        <property name="text">
+         <string>Front Door</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>111</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:none;
+
+}
+QPushButton:hover{
+
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(0, 0, 0, 0));
+
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_37">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>140</y>
+         <width>111</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+background-color:none;
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>91</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-lock-96.png);
+border:none;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="airdevice_10">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>100</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+        </property>
+        <property name="text">
+         <string>Door</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>111</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:none;
+
+}
+QPushButton:hover{
+
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(0, 0, 0, 0));
+
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_38">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>490</y>
+        <width>300</width>
+        <height>300</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>10</y>
+         <width>331</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>sans-serif</family>
+         <pointsize>25</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 25pt &quot;sans-serif&quot;;
+border:none;
+font-weight:600;
+color: rgb(0, 170, 127);
+</string>
+       </property>
+       <property name="text">
+        <string>25 JAN 2022</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>-30</x>
+         <y>150</y>
+         <width>371</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>sans-serif</family>
+         <pointsize>54</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 54pt &quot;sans-serif&quot;;
+border:none;
+font-weight:3000;
+
+color: rgb(0, 170, 127);</string>
+       </property>
+       <property name="text">
+        <string>00:52</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>301</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>sans-serif</family>
+         <pointsize>26</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+
+font: 75 26pt &quot;sans-serif&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 170, 127);</string>
+       </property>
+       <property name="text">
+        <string>MONDAY</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_39">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>490</y>
+        <width>611</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_40">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>121</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-temperature-128.png);
+background-color:none;
+border:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_5">
+       <property name="geometry">
+        <rect>
+         <x>-50</x>
+         <y>180</y>
+         <width>271</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>72</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>22</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>140</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>14</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+       </property>
+       <property name="text">
+        <string>Global Temperature</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="circularProgress_2">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>10</y>
+         <width>291</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+border:none;
+	border-radius: 140px;
+	background-color: qconicalgradient(cx:0.5, cy:0.5, angle:228.3, stop:0.940299 rgba(255, 255, 255, 255), stop:0.970149 rgba(0, 255, 25, 255));
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QFrame" name="circularbg_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>291</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+
+
+
+	background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QDial" name="dial_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>291</width>
+           <height>291</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="maximum">
+          <number>60</number>
+         </property>
+         <property name="singleStep">
+          <number>5</number>
+         </property>
+         <property name="pageStep">
+          <number>5</number>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+         <property name="sliderPosition">
+          <number>5</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+         <property name="invertedControls">
+          <bool>true</bool>
+         </property>
+         <property name="wrapping">
+          <bool>false</bool>
+         </property>
+         <property name="notchTarget">
+          <double>0.050000000000000</double>
+         </property>
+         <property name="notchesVisible">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_6">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>180</y>
+         <width>271</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>72</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:1 rgba(8, 137, 231, 255));
+border :none;
+background-color:none;
+
+font: 75 72pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>°</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>14</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(255, 0, 127);
+</string>
+       </property>
+       <property name="text">
+        <string>Set Temperature:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_12">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>50</y>
+         <width>31</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>40</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 0, 127);
+border :none;
+background-color:none;
+
+font: 75 40pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>°</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ariconditioner_label_13">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>50</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>40</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 0, 127);
+border :none;
+background-color:none;
+
+font: 75 40pt &quot;Segoe UI Historic&quot;;
+font-weight:900;</string>
+       </property>
+       <property name="text">
+        <string>22</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_41">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>490</y>
+        <width>311</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_47">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>101</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-cyber-security-100.png);
+border:none;
+background-color:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>241</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Historic</family>
+         <pointsize>14</pointsize>
+         <weight>99</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+       </property>
+       <property name="text">
+        <string>Security</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_48">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>51</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/icon/icons8-secure-50.png);
+border:none;
+background-color:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_42">
+      <property name="geometry">
+       <rect>
+        <x>1450</x>
+        <y>490</y>
+        <width>311</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0.98, y1:0.471364, x2:1, y2:0.472, stop:1 rgba(0, 0, 0, 18));
+border-style: outset;
+border-color:#FFF;
+border-width:2px;
+border-radius:30px;
+
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_43">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>-20</y>
+         <width>421</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+background:none;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QFrame" name="frame_44">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>61</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/newPrefix/icon/icons8-eye-64.png);
+border:none;
+background-color:none;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_45">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>150</y>
+          <width>111</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+background-color:none;
+
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>10</y>
+           <width>51</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-camera-64.png);
+border:none;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="airdevice_11">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>100</y>
+           <width>71</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::DefaultContextMenu</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+         </property>
+         <property name="text">
+          <string>Outdoor corner</string>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="frame_46">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>150</y>
+          <width>111</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+background-color:none;
+
+}
+QFrame:hover{
+
+background-color:rgb(48,57,66);
+
+
+
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="airdevice_12">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>100</y>
+           <width>71</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::DefaultContextMenu</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:none;
+font: 75 10pt &quot;Segoe UI Historic&quot;;
+border:none;
+color: rgb(108, 108, 108);</string>
+         </property>
+         <property name="text">
+          <string>Outdoor garden</string>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Historic</family>
+          <pointsize>14</pointsize>
+          <weight>99</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>Surveillance Cameras</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>220</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>14</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>Light Intensity</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>1380</x>
+        <y>220</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>14</pointsize>
+        <weight>99</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:none;
+font: 75 14pt &quot;Segoe UI Historic&quot;;
+border:none;
+font-weight:800;
+color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>Doors and Windows</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>1440</x>
+        <y>820</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>connect</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>1590</x>
+        <y>820</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>disconnect</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>1660</x>
+      <y>640</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;
+background-image: url(:/newPrefix/icon/icons8-camera-64.png);
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
