@@ -1,4 +1,4 @@
-# A-MQTT-client-with-PyQt5-PSide2
+# A-MQTT-client-with-PyQt5
 SmarT TecH IOT Dashboard
 
 
